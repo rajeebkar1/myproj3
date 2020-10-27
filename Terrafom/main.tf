@@ -2,7 +2,7 @@ provider "azurerm" {
 features {}
 }
 variable "prefix" {
-  default = "mylabterraform"
+  default = "mylabterraform_branchupdate"
 }
 
 resource "azurerm_resource_group" "main" {
