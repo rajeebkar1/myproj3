@@ -2,7 +2,7 @@ provider "azurerm" {
 features {}
 }
 variable "prefix" {
-  default = "mylabterraformbuildCICD"
+  default = "mylabterraformbuildCICDupdated"
 }
 
 resource "azurerm_resource_group" "main" {
